@@ -12,6 +12,7 @@ function _draw() {
   <div class="my-3">
     <button class="btn btn-primary text-white elevation-2" onclick="app.valuesController.addValue()">Add Value</button>  
     <button class="btn btn-warning text-white elevation-2" onclick="app.valuesController.clearAll()">Clear All</button>  
+    <button class="btn btn-primary text-white elevation-2" onclick="app.valuesController.removeValue()">Remove
     <div class="values d-flex flex-wrap my-3">
       ${cardsTemplate}
     </div>

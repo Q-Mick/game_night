@@ -1,7 +1,7 @@
-// import { ValuesController } from "./Controllers/ValuesController.js";
+import { ValuesController } from "./Controllers/ValuesController.js";
 import { PlayersController } from "./Controllers/PlayersControllers.js";
 class App {
-  // valuesController = new ValuesController();
+  valuesController = new ValuesController();
   playersController = new PlayersController();
   // Create the players controller class
   
